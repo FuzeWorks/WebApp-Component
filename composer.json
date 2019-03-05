@@ -14,14 +14,14 @@
   ],
   "require": {
     "php": ">=7.1.0",
-    "fuzeworks/core": "1.2.0-RC2",
-    "fuzeworks/mvcr": "1.2.0-RC2",
-    "fuzeworks/webcomponent": "1.2.0-RC1",
-    "fuzeworks/tracycomponent": "dev-master",
-    "fuzeworks/layout": "1.2.0-RC1",
+    "fuzeworks/core": "1.2.0-RC3",
+    "fuzeworks/mvcr": "1.2.0-RC3",
+    "fuzeworks/webcomponent": "1.2.0-RC3",
+    "fuzeworks/tracycomponent": "1.2.0-RC3",
+    "fuzeworks/layout": "1.2.0-RC3",
+    "fuzeworks/database": "1.2.0-RC3",
     "smarty/smarty": "~3.1.33",
     "latte/latte": "~2.4.8",
-    "fuzeworks/database": "dev-master",
     "ext-json": "*"
   },
   "require-dev": {
