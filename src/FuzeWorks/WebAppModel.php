@@ -40,7 +40,7 @@ namespace FuzeWorks;
 abstract class WebAppModel extends WebModel
 {
     /**
-     * @var Layout
+     * @var Database
      */
     protected $databases;
 
