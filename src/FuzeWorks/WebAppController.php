@@ -39,4 +39,16 @@ namespace FuzeWorks;
 
 abstract class WebAppController extends WebController
 {
+    /**
+     * @var Database
+     */
+    protected $databases;
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        // Load all the requirements for the WebAppController, not yet loaded by any of the parent controller classes
+        $this->databases = Factory::getInstance('databases');
+    }
 }
